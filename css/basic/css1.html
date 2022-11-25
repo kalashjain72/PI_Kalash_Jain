@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-    <style>
-      #row1{
-        border: 3px solid white;
-            margin: 12px 1px;
-            background: rgb(255, 77, 166);
-            height: 150px;
-            width:100%;
-      }
-      #row2{
-        border: 3px solid white;
-            margin-top: 1px;
-            margin-bottom: 12px;
-            background:#FF037E;
-            height: 300px;
-            float:left;
-            width: 100%;
-      }
-      #col2{
-        border: 3px solid white;
-            margin-top:1px;
-            margin-bottom: 12px;
-            background:#CE0468;
-            height: 300px;
-            float:right;
-            width: 30%
-      }
-      #row3{
-        border: 3px solid white;
-            background:#802755;
-            height: 150px;
-            width:100%;
-            clear:both;
-      }
- 
 
-    </style>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #row1 {
+        margin-bottom: 15px;
+        background: rgb(255, 77, 166);
+        height: 20vh;
+        width: 100%;
+    }
+
+
+    #col1 {
+        margin-bottom: 15px;
+
+        background: #FF037E;
+        height: 60vh;
+        float: left;
+        width: calc(70% - 15px);
+               
+    }
+
+    #col2 {
+
+        
+        margin-bottom: 15px;
+        background: #CE0468;
+        height: 60vh;
+        float: right;
+        width: 30%
+    }
+
+    #row3 {
+
+        background: #802755;
+        height: 20vh;
+        width: 100%;
+        clear: both;
+    }
+</style>
+
 <body>
     <div>
         <div id="row1">
-            
-        </div>
-        <div id="row2">
-              <div id="col2">
 
-              </div>
+        </div>
+        <div>
+            <div id="col1">
+
+            </div>
+
+            <div id="col2">
+
+            </div>
         </div>
         <div id="row3">
 
         </div>
     </div>
 </body>
+
 </html>
