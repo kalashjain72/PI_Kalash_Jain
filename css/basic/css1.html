@@ -4,53 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS1</title>
+    
+</head>
     <style>
-        *{
-            box-sizing: border-box;
-        }
-
-        #box1{
-            border: 3px solid white;
+      #row1{
+        border: 3px solid white;
             margin: 12px 1px;
             background: rgb(255, 77, 166);
             height: 150px;
             width:100%;
-            clear:both;
-        }
-        #box2{
-            border: 3px solid white;
+      }
+      #row2{
+        border: 3px solid white;
             margin-top: 1px;
             margin-bottom: 12px;
             background:#FF037E;
             height: 300px;
             float:left;
-            width: 66%;
-        }
-        #box3{
-            border: 3px solid white;
+            width: 100%;
+      }
+      #col2{
+        border: 3px solid white;
             margin-top:1px;
             margin-bottom: 12px;
             background:#CE0468;
             height: 300px;
             float:right;
-            width: 33%;
-        }
-        #box4{
-            border: 3px solid white;
+            width: 30%
+      }
+      #row3{
+        border: 3px solid white;
             background:#802755;
             height: 150px;
             width:100%;
             clear:both;
-        }
-    </style>
-</head>
-<body>
+      }
+ 
 
-         <div id="box1"></div>
-         <div id="box2"></div>
-         <div id="box3"></div>
-         <div id="box4"></div>
-      
+    </style>
+<body>
+    <div>
+        <div id="row1">
+            
+        </div>
+        <div id="row2">
+              <div id="col2">
+
+              </div>
+        </div>
+        <div id="row3">
+
+        </div>
+    </div>
 </body>
 </html>
