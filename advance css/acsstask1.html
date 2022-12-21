@@ -115,6 +115,10 @@
         background-color: #ED8719;
         display: flex;
         margin-bottom:  15px;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 40px;
     }
     .extracont{
         height: 30%;
@@ -144,6 +148,29 @@
         margin-left: 10px;
         padding: 10px;
     }
+    input{
+        width: 70%;
+        height: 40px;
+        background-color: #f8a549;
+    border: white;
+    border-radius: 2px;
+    }
+    button{
+        color: white;
+        background-color: #f8a549;
+        border: white;
+        height: 30px;
+        width: 61px;
+         border-radius: 2px;
+    }
+    .marginel{
+        margin-left: 106px;
+        
+    }
+    .marginer{
+        
+        margin-right: 106px;
+    }
 </style>
 
 <body>
@@ -162,12 +189,12 @@
             </div>
         </div>
 
-        <div class="banner">
-            <img src="a1.png" alt="">
+        <div class="banner ">
+            <img src="a1.png" class="marginel" alt="">
             <span>
                 <h1 class="banner1">BANNER</h1>
             </span>
-            <img src="a2.png" alt="">
+            <img src="a2.png" class="marginer" alt="">
         </div>
 
         <div class="content">
@@ -182,6 +209,10 @@
 
              <div class="mainbar">
                  <div class="maincont">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <button>submit</button>
 
                  </div>
                  
