@@ -17,7 +17,7 @@
 
     header {
         background-color: #D9D9D9;
-        height: 16vh;
+
         display: flex;
         align-items: center;
     }
@@ -25,14 +25,15 @@
     .icon {
         display: flex;
         height: 57px;
-        width: 57px;
+        width: auto;
         margin-left: 20px;
-        margin-top: 20px;
+
     }
 
     nav {
         height: 100%;
-        width: 50%;
+        width: 100%;
+        display: flex;
     }
 
     .list {
@@ -40,10 +41,10 @@
         display: flex;
         list-style: none;
         justify-content: flex-end;
-        align-content: space-between;
-        margin-top: 30px;
+        align-content: center;
         flex-wrap: wrap;
         color: blue;
+        margin-left: auto;
     }
 
     .list li {
@@ -135,19 +136,18 @@
 
 
     footer {
-        height: 12vh;
         display: flex;
         justify-content: center;
         background-color: #007594;
         color: #fff;
         align-items: center;
+        padding: 20px 0px;
     }
 
     .fli {
         display: flex;
-        list-style: none;
-        justify-content: center;
-        align-content: space-between;
+    list-style: none;
+    gap: 15px;
     }
 
     .fli li {
@@ -174,11 +174,9 @@
 
     .marginel {
         margin-left: 106px;
-
     }
 
     .marginer {
-
         margin-right: 106px;
     }
 </style>
@@ -188,8 +186,7 @@
         <header class="header">
             <nav>
                 <img src="icone.jpg" class="icon" alt="icon">
-            </nav>
-            <nav>
+
                 <ul class="list">
                     <li>Home</li>
                     <li>Services</li>
@@ -236,9 +233,12 @@
 
         <footer>
             <ul class="fli">
-                <li>Home |</li>
-                <li>Services |</li>
-                <li>Profile |</li>
+                <li>Home</li>
+                <li>|</li>
+                <li>Services</li>
+                <li>|</li>
+                <li>Profile</li>
+                <li>|</li>
                 <li>Contact Us</li>
             </ul>
         </footer>
@@ -254,3 +254,4 @@
 </body>
 
 </html>
+
