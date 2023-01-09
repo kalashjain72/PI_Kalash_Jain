@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <style>
-    * {
+        * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -43,19 +43,24 @@
         gap: 15px;
         padding-right: 130px;
     }
+   img{
+    width: 100%;
+    height: auto;
 
+   }
 
 
     .page1 {
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         background-image: url(img-1.jpg);
+        background-size: cover;
         position: relative;
         align-content: center;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
+        
 
     }
 
@@ -83,14 +88,14 @@
 
     button {
         border: 2px solid white;
-        border-radius: 14px;
+        border-radius: 26px;
         color: #fbfaff;
         background-color: transparent;
         position: relative;
         z-index: 1;
-        padding: 5px 25px;
+        padding: 10px 25px;
         margin-right: 30px;
-
+        margin-bottom: 45px;
     }
 
     .paddingtop {
@@ -99,13 +104,13 @@
     }
 
     button:hover {
-        background-color: yellow;
+        background-color: gold;
         color: #fbfaff;
         z-index: 1;
     }
 
     .darrow {
-        height: 3%;
+        height: 20px;
         width: auto;
         z-index: 1;
         margin-top: auto;
@@ -121,7 +126,7 @@
         display: flex;
         width: 100%;
         background-color: #f5f4fa;
-        padding: 50px;
+        padding: 50px 120px;
 
     }
 
@@ -155,8 +160,8 @@
     }
 
     .img3 {
-        height: 60vh;
-        width: auto;
+        height: auto;
+    width: 100%;
     }
 
 
@@ -255,16 +260,16 @@
     }
     .page5{
         background-image: url(img-4.jpg);
-    display: flex;
-    position: relative;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 80px 0px;
-    gap: 100px;
-    color: #f5f4fa;
+        display: flex;
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 80px 0px;
+        gap: 100px;
+        color: #f5f4fa;
 }
 .zind{
     z-index: 1;
@@ -281,12 +286,20 @@
     gap: 20px;
 }
 
+.p5col:hover{
+    color: gold;
+    z-index: 1;
+}
+
+
 
 .p5ico{
     height: auto;
     width: 15%;
     
 }
+    
+
     
 </style>
 
@@ -345,7 +358,7 @@
 
 
             </div>
-            <div class="2div2">
+            <div class="p2div2">
                 <img src="img-3.jpg" class="img3" alt="image 3">
             </div>
         </section>
@@ -410,14 +423,15 @@
                 <div class="p4col"> <img src="12-min.jpg" class="mb" alt="12"> <img src="2-min.jpg" class="mb" alt="2">
                 </div>
                 <div class="p4col"><img src="2-min.jpg" class="mb" alt="2"> <img src="2-min.jpg" class="mb" alt="2">
-                    <img src="2-min.jpg" class="mb" alt="2"></div>
+                    <img src="2-min.jpg" class="mb" alt="2">
+                </div>
                 <div class="p4col"> <img src="2-min.jpg" class="mb" alt="2"> <img src="12-min.jpg" class="mb" alt="12">
                 </div>
             </div>
 
 
         </main>
-      
+
         <section class="page5">
             <div class="zind">
                 <div class="p5col">
@@ -441,14 +455,14 @@
                     <p class="rep1">3519+</p>
                 </div>
             </div>
-
-
-                <div class="coloroverlay"></div>
-            
-
+            <div class="coloroverlay"></div>
         </section>
 
-       
+        <section>
+            <div> <h2>kalash jain </h2></div>
+        </section>
+        
+
 
 
 
